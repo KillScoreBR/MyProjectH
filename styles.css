@@ -1,17 +1,66 @@
-* {
-  margin:0px;
-  padding:0px;
+/*
+seletor {
+  propriedade: valor;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+seletores:
+por nome de elemento/tag
+por classe
+por id
+*/
+
+h1 {
+  color: white;
+  background-color: blue;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.fundo-verde {
+  background-color: green;
+  color: yellow;
 }
+
+#cor-texto {
+  color: white;
+}
+
+a {
+  background-color: orange;
+  color: black;
+
+
+  font-size: 20px;
+
+  font-family: cursive;
+
+  font-weight: 100;
+
+  line-height: 35px;
+
+}
+
+img {
+
+  width: 150px;
+
+  height: 250px;
+
+}
+
+/* a[href="https://kenzie.com.br/"] {
+
+  background-color: blue;
+
+} */
+
+em{
+
+  display: inline-block;
+
+  background-color: yellow;
+
+  color: black;
+
+  width: 100%;
+
+}
+  
